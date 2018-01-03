@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- LANGUAGE INDEPENDENT -->
+	<string name="app_name">Tuban Travel Guide</string>
+	<string name="maps_api_key">AIzaSyA4eqcuQRfEPiw9M7N_JIjY9V71fBZv2Vs</string>
+
+	<!-- LANGUAGE DEPENDENT -->
+	<string name="global_database_fail_toast">Maaf, Tempat yang anda maksud tidak ada dalam database kami</string>
+	<string name="global_map_fail_toast">Maaf, Perangkat anda tidak mendukung maps</string>
+
+	<string name="title_poi_detail">Detail Tempat</string>
+	<string name="title_map">Map</string>
+	<string name="title_search">Cari</string>
+
+	<string name="menu_map">Map</string>
+	<string name="menu_share">Bagikan</string>
+	<string name="menu_about">Tentang</string>
+	<string name="menu_layers">Layers</string>
+	<string name="menu_layers_normal">Normal</string>
+	<string name="menu_layers_satellite">Satellite</string>
+	<string name="menu_layers_hybrid">Hybrid</string>
+	<string name="menu_layers_terrain">Terrain</string>
+	<string name="menu_search">Cari</string>
+	<string name="menu_search_hint">Cari Tempat</string>
+
+	<string name="drawer_title">Tuban Travel Guide</string>
+	<string name="drawer_category_all">Semua Tempat</string>
+	<string name="drawer_category_favorites">Favorit</string>
+	<string name="drawer_open">Buka navigasi</string>
+	<string name="drawer_close">Tutup Navigasi</string>
+
+	<string name="placeholder_empty">Tempat tidak ditemukan</string>
+	<string name="placeholder_offline">Tidak tersambung internet</string>
+
+	<string name="fragment_poi_detail_info_title">Info</string>
+	<string name="fragment_poi_detail_map_title">Map</string>
+	<string name="fragment_poi_detail_map_explore">Explore</string>
+	<string name="fragment_poi_detail_map_navigate">Navigate</string>
+	<string name="fragment_poi_detail_description_title">Keterangan</string>
+	<string name="fragment_poi_detail_share_subject">Tempat</string>
+
+	<string name="dialog_about_title">Tentang</string>
+	<string name="dialog_about_message"><![CDATA["Aplikasi Tuban Travel Guide adalah aplikasi pemandu tempat wisata di Kab. Tuban<br /><br />Developed by Enggy Heroedi (1412120096)<br/> engggyheroedi07@gmail.com]]></string>
+
+	<string name="unit_meter">m</string>
+	<string name="unit_kilometer">km</string>
+	<string name="unit_mile">mi</string>
+</resources>
