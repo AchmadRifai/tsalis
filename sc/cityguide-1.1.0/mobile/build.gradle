@@ -36,7 +36,7 @@ dependencies
 android
         {
             compileSdkVersion 22
-            buildToolsVersion '26.0.2'
+            buildToolsVersion '25.0.0'
 
             defaultConfig
                     {
@@ -79,7 +79,7 @@ android
                     {
                         variant ->
                             if (variant.buildType.name.equals("release")) {
-                                variant.outputs.all
+                                variant.outputs.each
                                         {
                                             output ->
                                                 def outputFile = output.outputFile
@@ -88,8 +88,7 @@ android
                                                     def fileName = outputFile.name.replace(
                                                             "mobile",
                                                             "cityguide-" + defaultConfig.versionName + "-" + defaultConfig.versionCode + "-" + date.format('yyyyMMdd'))
-                                                    //output.outputFile = new File((String) outputFile.parent, (String) fileName)
-                                                    outputFileName = outputFile.parent+fileName;
+                                                    output.outputFile = new File((String) outputFile.parent, (String) fileName)
                                                 }
                                         }
                             }

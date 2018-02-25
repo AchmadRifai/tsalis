@@ -27,7 +27,7 @@
 			android:layout_height="wrap_content"
 			android:background="?attr/dividerHorizontal" />
 
-		<project.skripsi.enggyheroedi.view.SelectorLinearLayout
+		<project.skripsi.tsalis.view.SelectorLinearLayout
 			android:id="@+id/fragment_poi_detail_map_image_wrap"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
 				android:adjustViewBounds="true"
 				android:scaleType="fitCenter" />
 
-		</project.skripsi.enggyheroedi.view.SelectorLinearLayout>
+		</project.skripsi.tsalis.view.SelectorLinearLayout>
 
 		<View
 			android:layout_width="match_parent"

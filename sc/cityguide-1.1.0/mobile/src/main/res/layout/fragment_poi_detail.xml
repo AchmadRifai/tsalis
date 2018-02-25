@@ -6,7 +6,7 @@
 	android:layout_height="match_parent"
 	android:animateLayoutChanges="true">
 
-	<project.skripsi.enggyheroedi.view.ObservableStickyScrollView
+	<project.skripsi.tsalis.view.ObservableStickyScrollView
 		android:id="@+id/container_content"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
@@ -17,7 +17,7 @@
 
 		<include layout="@layout/fragment_poi_detail_content" />
 
-	</project.skripsi.enggyheroedi.view.ObservableStickyScrollView>
+	</project.skripsi.tsalis.view.ObservableStickyScrollView>
 
 	<include
 		layout="@layout/placeholder_progress"

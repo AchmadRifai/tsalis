@@ -3,7 +3,7 @@
 	<string name="ga_logLevel">verbose</string> <!-- The local log level for Analytics -->
 	<integer name="ga_dispatchPeriod">30</integer> <!-- How often the dispatcher should fire -->
 	<bool name="ga_dryRun">false</bool> <!-- Treat events as test events and don't send to google -->
-	<string name="project.skripsi.enggyheroedi.activity.MainActivity">POI list</string> <!-- The screen name that will appear in reports -->
-	<string name="project.skripsi.enggyheroedi.activity.PoiDetailActivity">POI detail</string> <!-- The screen name that will appear in reports -->
-	<string name="project.skripsi.enggyheroedi.activity.MapActivity">Map</string> <!-- The screen name that will appear in reports -->
+	<string name="project.skripsi.tsalis.activity.MainActivity">POI list</string> <!-- The screen name that will appear in reports -->
+	<string name="project.skripsi.tsalis.activity.PoiDetailActivity">POI detail</string> <!-- The screen name that will appear in reports -->
+	<string name="project.skripsi.tsalis.activity.MapActivity">Map</string> <!-- The screen name that will appear in reports -->
 </resources>

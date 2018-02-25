@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="project.skripsi.enggyheroedi"
+    package="project.skripsi.tsalis"
     android:installLocation="auto">
 
     <!-- versionCode, versionName, minSdkVersion, targetSdkVersion properties are set via Gradle script -->
@@ -33,12 +33,12 @@
 	Don't forget to modify also MainActivity's theme.
     -->
     <application
-        android:name=".CityGuideApplication"
+        android:name="project.skripsi.tsalis.CityGuideApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.CityGuide.Blue"
+        android:theme="@style/Theme.CityGuide.Green"
         tools:replace="android:icon">
 
         <!--
@@ -54,16 +54,16 @@
         -->
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="project.skripsi.tsalis.activity.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CityGuide.TransparentStatusBar.Blue">
+            android:theme="@style/Theme.CityGuide.TransparentStatusBar.Green">
         </activity>
         <activity
-            android:name=".activity.PoiDetailActivity"
+            android:name="project.skripsi.tsalis.activity.PoiDetailActivity"
             android:label="@string/title_poi_detail"
             android:launchMode="standard" />
         <activity
-            android:name=".activity.MapActivity"
+            android:name="project.skripsi.tsalis.activity.MapActivity"
             android:label="@string/title_map"
             android:launchMode="standard" />
         <activity
@@ -71,8 +71,8 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode|smallestScreenSize" />
 
         <provider
-            android:name=".content.PoiSearchRecentSuggestionsProvider"
-            android:authorities="project.skripsi.enggyheroedi.content.PoiSearchRecentSuggestionsProvider"
+            android:name="project.skripsi.tsalis.content.PoiSearchRecentSuggestionsProvider"
+            android:authorities="project.skripsi.tsalis.content.PoiSearchRecentSuggestionsProvider"
             android:exported="false" />
 
         <meta-data
@@ -85,7 +85,7 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/maps_api_key" />
 
-        <activity android:name=".Splash"
+        <activity android:name="project.skripsi.tsalis.Splash"
             android:launchMode="standard"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>

@@ -6,7 +6,7 @@
 
 	<fragment
 		android:id="@+id/fragment_poi_detail"
-		android:name="project.skripsi.enggyheroedi.fragment.PoiDetailFragment"
+		android:name="project.skripsi.tsalis.fragment.PoiDetailFragment"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent" />
 
