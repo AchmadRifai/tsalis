@@ -40,7 +40,11 @@
 	<string name="fragment_poi_detail_share_subject">Tempat</string>
 
 	<string name="dialog_about_title">Tentang</string>
-	<string name="dialog_about_message"><![CDATA["Aplikasi Tuban Travel Guide adalah aplikasi pemandu tempat wisata di Kab. Tuban<br /><br />Developed by Enggy Heroedi (1412120096)<br/> engggyheroedi07@gmail.com]]></string>
+	<string name="dialog_about_message"><![CDATA[
+	"Aplikasi Faskes BPJS Kabupaten Lamongan adalah aplikasi yang menavigasikan seluruh fasilitas kesehatan BPJS se Kabupaten Lamongan<br>
+	by Tsalis Mustofa Khuthoibi<br>
+	<b>tsalismusofa@gmail.com</b>"
+]]></string>
 
 	<string name="unit_meter">m</string>
 	<string name="unit_kilometer">km</string>

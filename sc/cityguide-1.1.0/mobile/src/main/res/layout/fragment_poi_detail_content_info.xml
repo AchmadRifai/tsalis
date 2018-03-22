@@ -150,6 +150,24 @@
 				android:ellipsize="end"
 				android:clickable="true"
 				android:focusable="true" />
+			<TextView
+				android:id="@+id/fragment_poi_detail_info_faskes"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:minHeight="@dimen/global_spacing_l"
+				android:paddingLeft="@dimen/fragment_poi_detail_info_item_padding"
+				android:paddingRight="@dimen/global_spacing_xs"
+				android:paddingTop="@dimen/global_spacing_xxs"
+				android:paddingBottom="@dimen/global_spacing_xxs"
+				android:gravity="center_vertical"
+				android:drawableLeft="@mipmap/ic_kode_faskes"
+				android:drawablePadding="@dimen/fragment_poi_detail_info_item_padding"
+				android:background="@drawable/selector_clickable_item_bg"
+				android:textAppearance="@style/TextAppearance.CityGuide.Body1"
+				android:textColor="@color/global_text_secondary"
+				android:maxLines="1"
+				android:ellipsize="end"
+				android:focusable="true" />
 
 		</LinearLayout>
 	</LinearLayout>

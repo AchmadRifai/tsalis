@@ -22,6 +22,7 @@ public class PoiModel implements ClusterItem, Comparable<PoiModel>
 	public static final String COLUMN_PHONE = "phone";
 	public static final String COLUMN_EMAIL = "email";
 	public static final String COLUMN_FAVORITE = "favorite";
+	public static final String COLUMN_FASKES = "kode_faskes";
 
 	@DatabaseField(columnName=COLUMN_ID, generatedId=true) private long id;
 	@DatabaseField(foreign=true, index=true) private CategoryModel category;
@@ -36,6 +37,16 @@ public class PoiModel implements ClusterItem, Comparable<PoiModel>
 	@DatabaseField(columnName=COLUMN_PHONE) private String phone;
 	@DatabaseField(columnName=COLUMN_EMAIL) private String email;
 	@DatabaseField(columnName=COLUMN_FAVORITE) private boolean favorite;
+	@DatabaseField(columnName=COLUMN_FASKES)private String kode_faskes;
+
+	public String getKode_faskes() {
+		return kode_faskes;
+	}
+
+	public void setKode_faskes(String kode_faskes) {
+		this.kode_faskes = kode_faskes;
+	}
+
 	private transient int distance;
 
 

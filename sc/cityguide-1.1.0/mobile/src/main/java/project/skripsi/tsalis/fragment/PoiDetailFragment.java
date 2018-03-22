@@ -703,7 +703,12 @@ public class PoiDetailFragment extends TaskFragment implements DatabaseCallListe
 		TextView linkTextView = (TextView) mRootView.findViewById(R.id.fragment_poi_detail_info_link);
 		TextView phoneTextView = (TextView) mRootView.findViewById(R.id.fragment_poi_detail_info_phone);
 		TextView emailTextView = (TextView) mRootView.findViewById(R.id.fragment_poi_detail_info_email);
-
+		TextView faskes=(TextView)mRootView.findViewById(R.id.fragment_poi_detail_info_faskes);
+		//faskes
+		if(mPoi.getKode_faskes()!=null&&!mPoi.getKode_faskes().trim().equals("")){
+			faskes.setText(mPoi.getKode_faskes());
+			faskes.setVisibility(View.VISIBLE);
+		}else faskes.setVisibility(View.GONE);
 		// intro
 		if(mPoi.getIntro()!=null && !mPoi.getIntro().trim().equals(""))
 		{
