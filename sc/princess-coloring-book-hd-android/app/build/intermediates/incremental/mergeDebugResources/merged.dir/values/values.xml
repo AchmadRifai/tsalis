@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#00ff00</color>
+    <color name="light_pink">#facee1</color>
+    <color name="picker_1">#000000</color>
+    <color name="picker_10">#1b9c24</color>
+    <color name="picker_11">#3cff00</color>
+    <color name="picker_12">#f0ff00</color>
+    <color name="picker_13">#ffa200</color>
+    <color name="picker_14">#ffb793</color>
+    <color name="picker_15">#b98267</color>
+    <color name="picker_16">#402f28</color>
+    <color name="picker_17">#c0c0c0</color>
+    <color name="picker_2">#ffffff</color>
+    <color name="picker_3">#fa6fab</color>
+    <color name="picker_4">#ff4343</color>
+    <color name="picker_5">#c948cb</color>
+    <color name="picker_6">#c391ed</color>
+    <color name="picker_7">#0c81ed</color>
+    <color name="picker_8">#08bfed</color>
+    <color name="picker_9">#14ed8a</color>
+    <color name="ui_pink">#fa6fab</color>
+    <color name="ui_pink_selected">#893d5e</color>
+    <color name="white">#ffffff</color>
+    <string name="app_name">Princess Color</string>
+    <string name="copyright">© 2012 GPA Software, Inc. All Rights Reserved.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="next_scene">Clic to show next scene.</string>
+    <string name="not_tablet">Not a tablet.</string>
+    <string name="previous_scene">Click to show previous scene.</string>
+    <string name="scene">Click to color scene.</string>
+    <string name="tablet_required">TABLET REQUIRED</string>
+    <string name="title">Princess Coloring Book</string>
+    <string name="title_activity_art_selector">ArtSelector</string>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

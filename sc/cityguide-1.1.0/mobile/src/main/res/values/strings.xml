@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<!-- LANGUAGE INDEPENDENT -->
-	<string name="app_name">Tuban Travel Guide</string>
+	<string name="app_name">Faskes Kab Lamongan</string>
 	<string name="maps_api_key">AIzaSyA4eqcuQRfEPiw9M7N_JIjY9V71fBZv2Vs</string>
 
 	<!-- LANGUAGE DEPENDENT -->
@@ -23,7 +23,7 @@
 	<string name="menu_search">Cari</string>
 	<string name="menu_search_hint">Cari Tempat</string>
 
-	<string name="drawer_title">Tuban Travel Guide</string>
+	<string name="drawer_title"></string>
 	<string name="drawer_category_all">Semua Tempat</string>
 	<string name="drawer_category_favorites">Favorit</string>
 	<string name="drawer_open">Buka navigasi</string>
@@ -42,8 +42,9 @@
 	<string name="dialog_about_title">Tentang</string>
 	<string name="dialog_about_message"><![CDATA[
 	"Aplikasi Faskes BPJS Kabupaten Lamongan adalah aplikasi yang menavigasikan seluruh fasilitas kesehatan BPJS se Kabupaten Lamongan<br>
-	by Tsalis Mustofa Khuthoibi<br>
-	<b>tsalismusofa@gmail.com</b>"
+	by Tsalis Musthofa Khuthoibi<br>
+	1412120091<br>
+	<b>tsalismusthofa@gmail.com</b>"
 ]]></string>
 
 	<string name="unit_meter">m</string>

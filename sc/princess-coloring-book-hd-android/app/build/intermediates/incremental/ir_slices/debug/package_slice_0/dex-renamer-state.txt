@@ -1,0 +1,4 @@
+#Fri Jun 01 21:50:32 WIB 2018
+base.0=/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

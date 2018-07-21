@@ -1,0 +1,93 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,13,4,5,12,7,8,10,11,9,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,643,108,161,579,280,333,463,519,406,212",
+                        "endColumns": "51,84,52,50,63,52,72,55,59,56,67",
+                        "endOffsets": "103,723,156,207,638,328,401,514,574,458,275"
+                    },
+                    "to": {
+                        "startLines": "24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1012,1064,1149,1202,1253,1317,1370,1443,1499,1559,1616",
+                        "endColumns": "51,84,52,50,63,52,72,55,59,56,67",
+                        "endOffsets": "1059,1144,1197,1248,1312,1365,1438,1494,1554,1611,1679"
+                    }
+                },
+                {
+                    "source": "/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "18,20,26,40,41,42,44,45,46,47,28,30,31,32,34,35,36,37,39,22,23,19,6,15",
+                        "startColumns": "4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,4",
+                        "startOffsets": "699,773,908,1316,1357,1398,1441,1482,1523,1564,950,993,1033,1073,1114,1154,1194,1234,1276,817,856,736,186,539",
+                        "endLines": "18,20,26,40,41,42,44,45,46,47,28,30,31,32,34,35,36,37,39,22,23,19,12,17",
+                        "endColumns": "39,41,39,40,40,40,40,40,40,40,40,39,39,39,39,39,39,39,39,38,47,36,12,12",
+                        "endOffsets": "734,813,946,1355,1396,1437,1480,1521,1562,1603,989,1031,1071,1111,1152,1192,1232,1272,1314,854,902,771,501,694"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,35,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,140,183,227,271,315,359,403,447,491,535,578,621,664,707,750,793,836,879,921,972,1684,2004",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,41,44",
+                        "endColumns": "39,44,42,43,43,43,43,43,43,43,43,42,42,42,42,42,42,42,42,41,50,39,12,12",
+                        "endOffsets": "90,135,178,222,266,310,354,398,442,486,530,573,616,659,702,745,788,831,874,916,967,1007,1999,2159"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "332"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "210"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/ashura/Dokumen/garapan/tsalis/sc/princess-coloring-book-hd-android/app/src/main/res/values-v14/styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "220",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "375"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "210"
+                    }
+                }
+            ]
+        }
+    ]
+}
